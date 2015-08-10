@@ -1,0 +1,214 @@
+body{
+    overflow-x: hidden;
+}
+spinner /*Portfolio page*/
+.portfolio-sub-heading{
+    color: #E2DDD4;
+    font-weight: bold;
+    font-size: 15px;
+}
+.xs-heading-sec{
+    margin-bottom: 35px;
+}
+.xs-short-description{
+    color: #999;
+}
+.xs-portfolio-title{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration:  none;
+}
+.xs-portfolio-box{
+
+}
+.xs-status{
+    color: #FF6C64;
+    float: right;
+}
+.xs-portfolio-title:hover{
+    color: #FF6C64;
+    -webkit-transition:width 1s, height 1s, background-color 1s, 
+        -webkit-transform 1s;
+    transition:width 1s, height 1s, background-color 1s, transform 1s;
+    text-decoration:  none;
+}
+.thumbnail img:hover{
+    opacity: 0.5;
+    -webkit-transition:width 1s, height 1s, background-color 1s, 
+        -webkit-transform 1s;
+    transition:width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+.xs-head-heading-section{
+    float: left;
+    width: 70%;
+}
+.xs-head-filter-section{
+    float: right;
+    padding: 20px 10px;
+}
+
+/*Portfolio Details*/
+.xs-description-portfolio-details p{
+    color: #999;
+    font-size: 19px;
+    font-weight: normal;
+
+}
+.xs-description-portfolio-details-feedback p{
+    color: #999;
+    font-style: italic;
+    font-size: 17px;
+    margin-left: 5px;
+
+}
+.xs-description-portfolio-details-feedback{
+    border-left: 3px solid #f1f1f1;
+}
+.xs-developedin{
+    margin-top: 20px;
+}
+.xs-builtwithTag{
+    margin-bottom: 10px;
+}
+.xs-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+}
+.xs-row{
+    padding: 10px;
+}
+.xs-right-nav-info{
+    background: #F1F1F1;
+    padding: 10px;
+}
+.xs-right-nav-info a{
+    width: 100%; 
+    margin-bottom: 10px;
+}
+.xs-lb{
+    line-height: 35px;
+}
+.xs-right-attr-nav{
+    color: #777777;
+    font-size: 15px;
+    float: right;
+    margin-right: 20%;
+    font-weight: bold;
+}
+.xs-builtwithTag span{
+    margin-right: 5px;
+}
+.xs-back-btn-head{
+    position: fixed;
+    top: 9%;
+    left: 0;
+    z-index: 9999;
+}
+.xs-btn-back {
+    background: #FF6C64 none repeat scroll 0 0;
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    z-index: 9999;
+    color: #fff;
+    text-decoration: none;
+}
+
+.xs-btn-back:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*=========================*/
+.thumbnail > a {
+  display: inherit;
+  height: 200px;
+}
+
+.fade-animate{
+    -webkit-transition:all linear 0.5s;
+    -moz-transition:all linear 0.5s;
+    -o-transition:all linear 0.5s;
+    transition:all linear 0.5s;
+}
+
+
+.spinner {
+  background: rgba(0, 0, 0, 0) url("/assets/images/loading.gif") repeat scroll 0 0;
+  height: 50px;
+  left: 45%;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+}
+
+.fadeOut {
+    animation: 0.5s ease 0s normal none 1 running fade-out;
+    display: none !important;
+    z-index: 99;
+}
+
+
+
+/* CSS TO ANIMATE ng-view */
+.animate_view.ng-enter {
+  -webkit-transition: 0.5s;
+  transition: 0.5s; 
+  opacity: 0;  
+  margin-left: 100%;
+}
+
+.animate_view.ng-enter-active {
+  margin-left: 0;
+  opacity: 1;  
+}
+
+.animate_view.ng-leave {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;  
+  margin-left: 0;
+} 
+
+.animate_view.ng-leave-active {
+  margin-left: 100%;
+} 
+
+.animate_view.ng-move {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;  
+  background: gold;
+}
+
+.animate_view.ng-move-active {
+  background: #fff;
+}
+
+
+
+/* CSS TO ANIMATE xs-portfolio-box */
+.xs-portfolio-box.ng-enter {
+  -webkit-transition: 1s;
+  transition:1s;
+  opacity: 0;  
+ /*  margin-left: 100%; */
+}
+
+.xs-portfolio-box.ng-enter-active {
+  /* margin-left: 0; */
+  opacity: 1;  
+}
+
+.xs-portfolio-box.ng-leave {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;  
+  margin-left: 0;
+} 
+
+.xs-portfolio-box.ng-leave-active {
+  opacity: 0;
+  margin-left: 100%;
+} 

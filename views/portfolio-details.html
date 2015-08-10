@@ -1,0 +1,48 @@
+	<style>
+		body{ background: #99DF8C;  }
+		.xs-container{ background: #fff; margin-top: 50px; margin-bottom: 50px; border-radius: 5px;}
+	</style>
+        
+	<div class="xs-back-btn-head"><a href="{{siteUrl}}" class="xs-btn-back">BACK</a></div>
+	<div class="container xs-container" ng-controller="PortfolioListController">
+		<input type="hidden" name="portfolioID" ng-model="portfolioID" ng-init="portfolioID={{portfolioID}}" >
+		
+		<div ng-repeat="result in portfolioList" ng-show="result.id=={{portfolioID}}">
+			<div class="row xs-row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<img ng-src="{{result.image}}" class="xs-image">
+				</div>
+			</div>
+
+			<div class="row xs-row" >
+				<div class="col-xs-12 col-sm-12 col-md-8">
+					<div class="xs-heading-portfolio-details"><h2>#{{result.title}}</h2></div>
+					<div class="xs-description-portfolio-details">
+						<p>{{result.description}}</p>
+					</div>
+
+					<div class="xs-heading-portfolio-details" ng-if="result.review!=''"><h3>Client Feedback</h3></div>
+					<div class="xs-description-portfolio-details-feedback" ng-if="result.review!=''">
+						<p>{{result.review}}</p>
+					</div>
+
+					<div class="xs-developedin"><h4>Development Platforms</h4></div>
+					<div class="xs-builtwithTag">
+						<span class="label label-default" ng-repeat="plateform in result.developed_in">{{plateform.pf}}</span>
+					</div>
+
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<div class="xs-right-nav-info">
+						<a href="{{result.url}}" target="_blank" class="btn btn-lg btn-success">Launch Website</a>
+						<div class="xs-lb"><label>Rating: </label> <span class="xs-right-attr-nav">{{result.rating}}</span></div>
+						<div class="xs-lb"><label>Client Name: </label> <span class="xs-right-attr-nav">{{result.client_name}}</span></div>
+						<div class="xs-lb"><label>Project Ended: </label> <span class="xs-right-attr-nav">{{result.project_ended}}</span></div>
+						<div class="xs-lb"><label>Status: </label> <span class="xs-right-attr-nav">{{result.status}}</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+

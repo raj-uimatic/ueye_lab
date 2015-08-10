@@ -1,0 +1,194 @@
+[
+    {
+        "id": "1",
+        "title": "Functional Medicine",
+        "shortinfo": "Portfolio,Product",
+        "image": "assets/images/portfolio_medicine-min.png",
+        "url": "http://functionalmedicineforlife.com/",
+        "status": "Completed",
+        "rating": 5,
+        "client_name": "Dr. Whisler",
+        "project_ended": "2015/05/02",
+        "description": "A complete overhaul of the existing website. Task included to present PSD's to the client and then build a custom wordpress theme based on it.",
+        "review": "Ueye Technologies has done great job.Highly recommended for sure.",
+        "developed_in": [
+            {
+                "pf": "WORDPRESS"
+            },
+            {
+                "pf": "JQUERY"
+            },
+            {
+                "pf": "PSD"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Mortgage Calculator",
+        "shortinfo": "Portfolio",
+        "image": "assets/images/portfolio_mortgage-min.png",
+        "url": "http://dev.ueyetechnologies.com/mortgage/",
+        "status": "Completed",
+        "rating": 5,
+        "client_name": "Tom V",
+        "project_ended": "2015/04/20",
+        "description": "A tool or program used to determine a mortgage monthly payments.These calculators use the amount financed, term of the loan, and interest rate to calculate the monthly payment.",
+        "review": "Ueye technologies absolutely brillent they took compelete responsibility of my projects and delivered successfully Thanks guys cheers!",
+        "developed_in": [
+            {
+                "pf": "JQUERY"
+            },
+            {
+                "pf": "CSS4"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Retirement Calculator",
+        "shortinfo": "Portfolio",
+        "image": "assets/images/portfolio_retirement.png",
+        "url": "http://dev.ueyetechnologies.com/retirement/",
+        "status": "Completed",
+        "rating": 5,
+        "client_name": "Tom V",
+        "project_ended": "2015/04/22",
+        "description": "Use this retirement planning tool to work out how much you might need to save in order to meet your retirement goals. Based upon the information you provide, this calculator will provide you with a possible forecast savings guide to meet your projected retirement spending.",
+        "review": "Ueye technologies absolutely brillent they took compelete responsibility of my projects and delivered successfully Thanks guys cheers!",
+        "developed_in": [
+            {
+                "pf": "JQUERY"
+            },
+            {
+                "pf": "CSS3"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "title": "PixiToon",
+        "shortinfo": "Portfolio,Product",
+        "image": "assets/images/portfolio_pixie.png",
+        "url": "http://dev.ueyetechnologies.com/pixie/",
+        "status": "Ongoing",
+        "rating":5,
+        "client_name": "Pixi",
+        "project_ended": "-",
+        "description": "Pixietoon is a web-based animation company incorporated in Sweden and Switzerland. We are a flexible organization with super talents in the animation field. High quality and affordable prices is our mantra. We approach every project with the same enthusiasm and always strive to deliver outstanding results.",
+        "review": "It going good for now, Happy with the work",
+        "developed_in": [
+            {
+                "pf": "WORDPRESS"
+            },
+            {
+                "pf": "JQUERY"
+            },
+            {
+                "pf": "CSS3"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "title": "My Money",
+        "shortinfo": "portfolio,Parallax,Animations",
+        "image": "assets/images/portfolio_animations.png",
+        "url": "http://dev.ueyetechnologies.com/mymoney/",
+        "status": "Completed",
+        "rating": 5,
+        "client_name": "John M",
+        "project_ended": "2015/01/15",
+        "description": "A parallex based site for describing and calculating business risk factor. A step by Step approch to make your business successful.",
+        "review": "Fantastic work they deliver me a very quality and productiv work this what what that i was looking for. I will hire Ueye technolgies again for sure.",
+        "developed_in": [
+            {
+                "pf": "TWINMAX JS"
+            },
+            {
+                "pf": "GRAPHICS"
+            },
+            {
+                "pf": "JQUERY"
+            },
+            {
+                "pf": "CSS3"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Love My Look",
+        "shortinfo": "portfolio,Parallax,Animations",
+        "image": "assets/images/portfolio_love_my_look-min.png",
+        "url": "http://dev.ueyetechnologies.com/lovemylook",
+        "status": "Completed",
+        "rating": 5,
+        "client_name": "Peter K",
+        "project_ended": "2015/05/23",
+        "description": "Collect and organize things you love, create fashion looks, save and earn money! Yes, you can do it all here - at Lovemylook! Try it, you will love it!",
+        "review": "I am very setisfied with the work, Communication is very good ,Support is very good overall i will give 5 start! CHEERS Guys",
+        "developed_in": [
+            {
+                "pf": "WORDPRESS"
+            },
+            {
+                "pf": "JQUERY"
+            },
+            {
+                "pf": "CSS3"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Nova",
+        "shortinfo": "portfolio,Product",
+        "image": "assets/images/portfolio_nova-min.png",
+        "url": "http://dev.ueyetechnologies.com/nova/",
+        "status": "Completed",
+        "rating": 5,
+        "client_name": "Michael Issha",
+        "project_ended": "2015/01/15",
+        "description": "Boote's de production video specialise dans la publicite, le corporatif,la tlvision et le motion design. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "review": "They Have delivered good website for me. Now I am ready to go ahead.",
+        "developed_in": [
+            {
+                "pf": "WORDPRESS"
+            },
+            {
+                "pf": "JQUERY"
+            },
+            {
+                "pf": "CSS3"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Bogosse",
+        "shortinfo": "portfolio",
+        "image": "assets/images/prototype_bogosse-min.png",
+        "url": "http://dev.ueyetechnologies.com/bogosse/",
+        "status": "Completed",
+        "rating": 5,
+        "client_name": "Patrick Tardieu",
+        "project_ended": "2015/03/22",
+        "description": "The name Bogosse comes from the French term, beau gosse, which is a traditional flattering translation for Handsome. It is often used when recognizing stylish and elegant gentlemen worldwide.Patrick Tardieu, world-class professional athlete, international business entrepreneur, traveler and connoisseur of the finest clothing designs, founded the company on a strong clear vision he had from a men's store visit in Paris.Since its inception in 2004, Bogosse has created a buzz and an undeniable imprint in the world of men's shirts and fashion. The brand perfectly expresses an European sensibility with a touch of playfulness that projects an elegant versatility which easily moves from the boardroom to the late-night scene. Bogosse always features the highest quality and sophisticated luxurious look while keeping a fun, comfortable and self-assured image.Bogosse products are crafted with unique custom European fabrics and prints. Each garment gives a perfect slimming fit complimented by its one of a kind hand-finished stitching and originally crafted new cuffs and collars from one season to the other. Each model offers either an original esthetics detail or simply a functional one that is guaranteed to draw attention and compliments.",
+        "review": "Fantastic Work, Well managed code and nice sense of humor in User Interface",
+        "developed_in": [
+            {
+                "pf": "TWINMAX JS"
+            },
+            {
+                "pf": "GRAPHICS"
+            },
+            {
+                "pf": "JQUERY"
+            },
+            {
+                "pf": "CSS3"
+            }
+        ]
+    }
+]

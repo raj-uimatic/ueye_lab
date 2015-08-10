@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+	<meta content="BlendTrans(Duration=0.01)" http-equiv="Page-Exit" />
+        <meta content="content-type: text/html; charset=UTF-8">
+        <title> : Ueye Lab : </title>
+        <!--<title> : Innovation: </title>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/app.css">
+        <script src="assets/js/angular.min.js"></script>
+        <script src="assets/js/angular-animate.min.js"></script>
+        <script src="assets/js/angular-route.min_1.3.3.js"></script>
+        <script src="ueyeApp.js"></script>
+        <script src="controllers/PortfolioListController.js"></script>
+        <!--CFPLoading bar css-->
+        <link rel="stylesheet" href="assets/css/loading-bar.css">
+        <script src="assets/js/loading-bar.js"></script>
+    </head>
+    <body ng-app="ueyeApp">
+	 <div ng-view autoscroll="true" class="animate_view" ></div> 
+	 
+        <div class="container" ng-controller="PortfolioListController" ng-show="row" >
+           
+            <div class="xs-heading-sec">
+                <div class="xs-head-heading-section">
+                    <h2 class="portfolio-heading">Our Portfolio</h2>
+                    <p class="portfolio-sub-heading">Multiple Technolgies into One Roof</p>
+                </div>
+                <div class="xs-head-filter-section" ng-show = "showFilter()">
+                    <label>Filter By: </label>
+                    <select class="input-group selectpicker form-control" name="platform" id="platform" ng-model="filterByPlatform">
+                        <option ng-repeat="tech in distinctPlateform" value="{{tech}}">{{tech}}</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div ng-repeat="portfolio in portfolioList | filter:filterByPlatform" ng-show="urlFilterPf(portfolio.id,portfolio.developed_in)" class="col-xs-12 col-sm-6 col-md-4 col-lg-4 xs-portfolio-box" >
+                    <div class="thumbnail">
+						<!-- <a href="{{siteUrl}}/portfolio-details.php?p={{portfolio.id}}"><img src="{{portfolio.image}}" style="height: 200px;"></a>-->
+                        <!-- <a href="{{siteUrl}}/portfolio-details.html?pid={{portfolio.id}}"> -->
+                        <a href="#portfolio/{{portfolio.id}}">
+                            <i class="spinner"></i>
+                            <img class="fadeOut fade-animate" ng-src="{{portfolio.image}}"  style="height: 100%;" imageonload>
+                        </a>
+                        <div class="caption">
+                            <!--<h3><a class="xs-portfolio-title" href="{{siteUrl}}/portfolio-details.html?pid={{portfolio.id}}" title="Go to {{portfolio.title}} Website">{{portfolio.title}}</a></h3> -->
+                            <h3><a class="xs-portfolio-title" href="#portfolio/{{portfolio.id}}" title="Go to {{portfolio.title}} Website">{{portfolio.title}}</a></h3>
+                            <small class="xs-short-description">{{portfolio.shortinfo}}</small>
+                            <small class="xs-status">{{portfolio.status}}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
